@@ -66,9 +66,9 @@ li a {
 }
 
 main form { 
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+    display: block;
+    /* flex-direction: column; */
+    /* gap: 1.5rem; */
     
 }
 
@@ -80,7 +80,7 @@ main form {
     gap: 1rem;
 }
 
-.first-question-page button {
+.first-question-page .button {
     width: 4rem;
     height: 2rem;
 }
@@ -95,21 +95,27 @@ main form {
     
 }
 
-.first-question-page form div{
+.first-question-page form div {
     display: flex;
-    gap: 5rem;
+    justify-content: space-between;
+}
+
+.first-question-page form div input{
+    display: flex;
+    justify-content: space-between;
 }
 
 .question label {
-    padding-right: 3rem;
+    width: 35rem;
+    height: 10rem;
     font-size: 2rem;
 }
 
 .question input {
    appearance: none;
    border: 1px solid #d3d3d3;
-   width: 30px;
-   height: 30px;
+   width: 2rem;
+   height: 2rem;
    content: none;
    outline: none;
    margin: 0;
