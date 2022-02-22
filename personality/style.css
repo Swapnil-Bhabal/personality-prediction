@@ -99,8 +99,6 @@ li a {
 
 .panel {
     display: flex;
-    align-self: flex-end;
-    margin: 0 4.2rem 0 60rem;
     padding: 2rem 0.5rem 2rem 28rem;
     gap: 6.15rem;
     justify-content: space-between;
