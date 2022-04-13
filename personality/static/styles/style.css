@@ -126,27 +126,7 @@ li a {
     font-size: 1.8rem;
 }
 
-.question input[type="radio"]:checked {
-    appearance: none;
-    outline: none;
-    padding: 0;
-    content: none;
-    border: none;
-  }
-  
-
-.question input[type="radio"]:checked::before{
-    position: absolute;
-    color: black !important;
-    content: "\00A0\2713\00A0" !important;
-    /* border: 1px solid #d3d3d3; */
-    font-weight: bolder;
-    font-size: 34px;
-    text-align: center;
-    
-}
-
-.first-question-page p {
+p {
     font-weight: 600;
     font-size: 4rem;
     margin: 2rem 0 4rem 0;
@@ -163,6 +143,22 @@ li a {
 .form-range {
    width: 29.8rem; 
 }
+
+.form-range-two {
+    width: 29.8rem; 
+ }
+
+ .form-range-three {
+    width: 29.8rem; 
+ }
+
+ .form-range-four {
+    width: 29.8rem; 
+ }
+
+ .form-range-five {
+    width: 29.8rem; 
+ }
 
 /* #openness {
     display: none;
