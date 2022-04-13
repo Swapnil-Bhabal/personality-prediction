@@ -160,6 +160,6 @@ p {
     width: 29.8rem; 
  }
 
-/* #openness {
+#openness, #neuroticism, #extraversion, #conscientiousness, #agreeableness {
     display: none;
-} */
+}
