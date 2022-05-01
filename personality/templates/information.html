@@ -21,25 +21,25 @@
         </nav>  
     </header>
     <main class="information-page">
-        <form action="">
+        <form action="{{ url_for('form') }}">
             <div class="name">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="information">
+                <input type="text" id="name" name="information" required>
             </div>
             <div class="age">
                 <label for="age">Age:</label>
-                <input type="number" id="age" name="information">
+                <input type="number" id="age" name="information" required>
             </div>
             <div class="gender">
                 <label>Gender:</label>
-                <input type="radio" id="male" name="information" value="male">
+                <input type="radio" id="male" name="information" value="male" required>
                 <label for="male">Male</label>
-                <input type="radio" id="female" name="information" value="female">
+                <input type="radio" id="female" name="information" value="female" required>
                 <label for="female">Female</label>
-                <input type="radio" id="other" name="information" value="other">
+                <input type="radio" id="other" name="information" value="other" required>
                 <label for="other">Others</label>
             </div>
-            <a href="{{ url_for('form') }}" class="button">Start</a>
+            <button type="submit" class="button">Start</button>
             
         </form>
     </main>
